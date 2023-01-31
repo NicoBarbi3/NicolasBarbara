@@ -1,0 +1,17 @@
+{
+    "name" : "Curriculum de Nicolas Barbara",
+    "short_name": "Barbara CV",
+    "theme_color": "#ff7f50",
+    "background_color": "#ff7f50",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "./",
+    "start_url": "./",
+    "icons": [
+        {
+        "src": "./Yo.png",
+        "type": "image/png",
+        "sizes": "512x512"
+        }    
+    ]
+}

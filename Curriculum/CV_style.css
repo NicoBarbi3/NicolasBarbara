@@ -1,0 +1,271 @@
+* {
+    padding: 0;
+    margin: 0, 0, 0, 0;
+    box-sizing: border-box;
+}
+.grid-layout{
+    display: grid;
+    grid-template-columns: 8.33%  8.33%  8.33%  8.33%  8.33%  8.33%  8.33%  8.33%  8.33%  8.33%  8.33%  8.33%;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+.grid-layout div {
+    /*border: 2px solid black;*/
+    text-align:center;  
+}
+body{
+    background-color: rgb(255, 127, 80);
+}
+#nombrePrincipal {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0%;
+    margin-right: 0;
+    margin-left: 0;
+    font-family: 'Unbounded', cursive;
+    color: bisque;
+    font-size: 11vw;
+    width: 70%;
+}
+#fotoMia {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0%;
+    margin-right: 0;
+    margin-left: 0;
+    width: 30vw;
+    height: 30vw; 
+
+}
+#flechas {
+    height: 5vw;
+    width: 5vw;
+}
+#fotoMiaChica{
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0%;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 90%;
+}
+.botones{
+    background-color:#41bea8 ;
+    height: 30vw;
+    width: 100%;
+    border-radius: 2vw;
+    border: #228b78 solid 10px;
+    font-family: 'Unbounded', cursive;
+    font-size: 5vw;
+    color: bisque;
+    justify-content: right;
+}
+.botones:hover {
+    background-size: 550px;
+    background-repeat: no-repeat;
+    color: coral;
+    background-color: bisque;
+    border: 0px;
+    cursor: pointer;
+}
+.divBotones {
+    margin: 2vw;
+    margin-top: 5vw;
+}
+#botonSobreMi {
+    background-image: url("Yo\ byn.png");
+    background-size: 50vw;
+    background-repeat: no-repeat;
+}
+#botonSobreMi:hover {
+    background-image: url("Yo.png");
+}
+#botonExperiencia {
+    background-image: url("Experiencia\ byn.png");
+    background-size: 50vw;
+    background-repeat: no-repeat;
+}
+#botonExperiencia:hover{
+    background-image: url("Experiencia.png");
+}
+#botonFormacion {
+    background-image: url("Libros\ byn.png");
+    background-size: 50vw;
+    background-repeat: no-repeat;
+}
+#botonFormacion:hover {
+    background-image: url("Libros.png");
+}
+#botonPortfolio{
+    background-image: url("arte\ byn.png");
+    background-size: 50vw;
+    background-repeat: no-repeat;
+}
+#botonPortfolio:hover {
+    background-image: url("Arte.png");
+}
+#botonContacto {
+    background-image: url("Contacto\ byn.png");
+    background-size: 50vw;
+    background-repeat: no-repeat;
+}
+#botonContacto:hover {
+    background-image: url("Contacto.png");
+}
+#botonCvenPDF {
+    background-image: url("pdf\ byn.png");
+    background-size: 50vw;
+    background-repeat: no-repeat;
+}
+#botonCvenPDF:hover {
+    background-image: url("PDF_icon.svg.png");
+}
+.caja1 {
+    grid-column: 1/8;
+    grid-row: auto;
+    text-align: left;
+    background-color: #41bea8;
+    border-top-left-radius: 50px;
+}
+.caja2 {
+   grid-column: 8/13;
+   grid-row: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #41bea8;
+   border-top-right-radius: 50px;
+}
+.caja3 {
+   grid-column: 1/13;
+   justify-content: center;
+   align-items: center;
+   background-color: #41bea8;
+   border-bottom-left-radius: 50px;
+   border-bottom-right-radius: 50px;
+}
+.caja6 {
+    grid-column: 1/7; 
+}
+.caja7 {
+    grid-column: 7/13 ;
+}
+.caja8 {
+    grid-column: 1/7;
+}
+.caja9{
+    grid-column: 7/13 ;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-self:auto ;
+}    
+.caja10 {
+    grid-column: 1/7 ;
+}
+.caja11 {
+    grid-column: 7/13;
+}
+.caja12 {
+    grid-column: 1/13 ;
+    text-align: center;
+    color: #41bea8;
+    font-size: 5vw;
+    font-family: 'Unbounded', cursive;
+    background-color: bisque;
+    border-radius: 10vw;
+}
+.botonSobreMiContraido {
+    width: 100%;
+    height: 20%;
+    background-color:bisque ;
+    border-radius: 2vw;
+    border: none;
+    font-family: 'Unbounded', cursive;
+    font-size: 2vw;
+    color: coral;
+    justify-content: center;
+    background-size: 50px, 50px;
+    padding: 0;
+    margin: 0, 0, 0, 0;
+}
+.pOculto{
+    display: none;
+}
+.pVisible{
+    display: flex;
+    background-color:#41bea8;
+    color:bisque;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    height: 80%;
+    font-size: 2vw;
+    display: flex;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    padding: 0;
+    margin:0;
+}
+#pFooter {
+    padding: 0;
+    margin: 0, 0, 0, 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color:#41bea8
+}
+.miniGrid7 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+    margin: 0;
+    padding: 0;
+}
+.miniGrid8 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+    margin: 0;
+    padding: 0;
+}
+.miniGrid10 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    margin: 4vw;
+    padding: 0;
+}
+@media only screen and (max-width: 768px) {
+[class*= "caja6"] {
+    grid-column: 1/13;
+    }
+}
+@media only screen and (max-width: 768px) {
+    [class*= "caja7"] {
+        grid-column: 1/13;
+    }
+}
+@media only screen and (max-width: 768px) {
+    [class*= "caja8"] {
+        grid-column: 1/13;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    [class*= "caja9"] {
+        grid-column: 1/13;
+    }
+}
+@media only screen and (max-width: 768px) {
+    [class*= "caja10"] {
+        grid-column: 1/13;
+    }
+}
+@media only screen and (max-width: 768px) {
+    [class*= "caja11"] {
+        grid-column: 1/13;
+    }
+}
